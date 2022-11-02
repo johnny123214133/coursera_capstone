@@ -82,7 +82,7 @@ def get_pie_chart(entered_site):
             filtered_df, 
             values='counts', 
             names='Launch Site', 
-            title='Total Successful Lanches'
+            title='Total Successful Launches'
         )
         return fig
     else:
